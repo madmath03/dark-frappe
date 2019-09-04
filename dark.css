@@ -1,22 +1,20 @@
 @-moz-document url-prefix("https://frappe.io"), url-prefix("https://support.erpnext.com"), url-prefix("https://translate.erpnext.com"), url-prefix("https://erpnext.com") {
 
 body, footer {
-    background-color: #36414c;
+    background-color: #333333;
     color: #fcfcfc;
     border-color: #222222 !important;
 }
 
 .mainnav, .subnav {
-    border-color: #222222 !important;
-}
-
-.subnav {
     background-color: #36414c;
+    border-color: #222222 !important;
 }
 
 .dropdown-menu {
     background-color: #33333333;
     color: #fcfcfc;
+    border-color: #222222;
 }
 
 .dropdown-item {
@@ -30,6 +28,9 @@ body, footer {
 .section-bg {
     background-color: #2a2a2a;
     border-color: #222222 !important;
+}
+.section-light {
+    background-color: #222;
 }
 
 .breadcrumb {
@@ -54,7 +55,7 @@ body[data-path*="docs"] .navbar, body[data-path*="features"] .navbar, body[data-
     border-color: #222222 !important;
 }
 
-.card, div[source-type="Generator"][data-doctype="Web Form"] .page-content-wrapper {
+.card, .card-footer, .card-footer, div[source-type="Generator"][data-doctype="Web Form"] .page-content-wrapper {
     background-color: #36414c;
     border-color: #222222 !important;
 }
